@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="5.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="5.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoNotifications.Core\DemoNotifications.Core.csproj" />
+    <ProjectReference Include="..\DemoNotifications.Domain\DemoNotifications.Domain.csproj" />
+    <ProjectReference Include="..\DemoNotifications.Repository\DemoNotifications.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
