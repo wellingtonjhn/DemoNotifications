@@ -25,6 +25,11 @@ namespace DemoNotifications.Core.Notifications
             _notifications.Add(notification);
         }
 
+        public void AddNotifications(IEnumerable<Notification> notifications)
+        {
+            _notifications.AddRange(notifications);
+        }
+
         public void AddNotifications(IReadOnlyCollection<Notification> notifications)
         {
             _notifications.AddRange(notifications);

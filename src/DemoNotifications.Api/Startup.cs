@@ -1,4 +1,5 @@
 ﻿using DemoNotifications.Api.Controllers;
+using DemoNotifications.Api.Filters;
 using DemoNotifications.Application;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace DemoNotifications.Api.Controllers
+namespace DemoNotifications.Api.Filters
 {
     public class NotificationFilter : IAsyncResultFilter
     {
